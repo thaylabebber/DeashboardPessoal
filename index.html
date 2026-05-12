@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Pessoal | SENAI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="dashboard">
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <i class="fas fa-chart-line"></i>
+                    <span>AdminPro</span>
+                </div>
+                <button class="sidebar-toggle" id="sidebar-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+
+            <nav class="sidebar-nav">
+                <ul>
+                    <li class="active">
+                        <a href="#">
+                            <i class="fas fa-tachometer-alt"></i>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="#">
+                            <i class="fas fa-users"></i>
+                            <span>Usuários</span>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="#">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span>Vendas</span>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="#">
+                            <i class="fas fa-chart-bar"></i>
+                            <span>Relatórios</span>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="#">
+                            <i class="fas fa-cog"></i>
+                            <span>Configurações</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="sidebar-footer">
+                <a href="#">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <span>Sair</span>
+                </a>
+            </div>
+        </aside>
+        <!-- Conteúdo Principal -->
+         <div class="main-content">
+            <header class="topbar">
+                <div class="search-area">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Pesquisar....">
+                </div>
+
+                <div class="user-area">
+                    <button class="dark-mode-toogle" id="darkModeToggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+
+                    <div class="notification">
+                        <i class="fas fa-bell"></i>
+                        <span class="badge">3</span>
+                    </div>
+
+                    <div class="user-profile">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg">
+                        <span>Thayla Bebber</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div class="page-header">
+                    <h1>Deashboard</h1>
+                    <p>Bem-Vinda, Thayla Bebber. Aqui está o resumo de seu negócio</p>
+                </div>
+                    <div class="cards-grid"></div>
+                    <div class="card">
+                       <div class="card-icon">
+                        <i class="fa-dodollar-sing"></i>
+                       </div> 
+                    <div class="card-info">
+                        <h3>Faturamento</h3>
+                        <p class="value" R$ 47.892></p>
+                        <span class="trend up"> \+12,5%</span>
+                    </div>
+                    <div class="card-info">
+                        <h3>Clientes</h3>
+                    <div class="card">
+                       <div class="card-icon">
+                        <i class="fa-dodollar-sing"></i>
+                       </div> 
+                       <div class="card-info">
+                        <h3>Vendas</h3>
+                        <p class="value">1.284</p>
+                    <div class="card">
+                       <div class="trend">
+                        <i class="fa-dodollar-sing"></i>
+                       </div> 
+                       <div class="card-info">
+                        <h3>Conversão</h3>
+                        <p class="value">1.284</p>
+                    <div class="card">
+                       <div class="trend">
+                        <i class="fa-dodollar-sing"></i>
+                       </div> 
+                    </div>
+                </div>
+            </main>
+         </div>
+    </div>    
+</body>
+</html>A
